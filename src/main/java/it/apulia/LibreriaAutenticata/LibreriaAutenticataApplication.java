@@ -18,4 +18,7 @@ public class LibreriaAutenticataApplication {
 		return new BCryptPasswordEncoder();
 	}
 
+	//link per gestione errori rest, compreso pagina personale accesso negato
+	// https://www.baeldung.com/exception-handling-for-rest-with-spring
+
 }
